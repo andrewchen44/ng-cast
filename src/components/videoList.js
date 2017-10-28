@@ -3,7 +3,8 @@ angular.module('video-player')
   // TODO
   // pass in data from exampleVideoData
   bindings: {
-    videos: '<'
+    videos: '<',
+    onClick: '<'
   },
   controller: function() {
     // console.log('videoData', this.videoData);
